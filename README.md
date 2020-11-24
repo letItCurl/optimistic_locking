@@ -3,6 +3,9 @@
 
 ## How to prevents conflicts when two users edits the same record...
 
+- Add a column lock_version:integer into your table 
+- add this value into your form / json and voilaaaa
+
 ## FROM
 
 Chris GoRails videos :
